@@ -10,5 +10,14 @@ fetch('https://www.flysas.com/en/')
 .catch(error => {
 throw(error);
 })
+try {
+        if (to=""){
+		 console.log("Destination not specified");
+		 }else{
+		 console.log("Destination OK");
+		 }  
+    } catch (error) {
+        console.log(error);
+    }
 </script>				
 				
